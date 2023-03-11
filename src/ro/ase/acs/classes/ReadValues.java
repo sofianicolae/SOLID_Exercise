@@ -1,13 +1,13 @@
 package ro.ase.acs.classes;
 
-import ro.ase.acs.interfaces.ReadValue;
+import ro.ase.acs.interfaces.ReadValuesDefinition;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ReadData implements ReadValue {
+public class ReadValues implements ReadValuesDefinition {
 
     @Override
     public void readData(Connection connection) throws SQLException {

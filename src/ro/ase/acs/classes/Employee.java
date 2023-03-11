@@ -3,13 +3,13 @@ package ro.ase.acs.classes;
 public class Employee {
     private int id;
     private String name;
-    private String adress;
+    private String address;
     private float salary;
 
-    public Employee(int id, String name, String adress, float salary) {
+    public Employee(int id, String name, String address, float salary) {
         this.id = id;
         this.name = name;
-        this.adress = adress;
+        this.address = address;
         this.salary = salary;
     }
 
@@ -29,12 +29,12 @@ public class Employee {
         this.name = name;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public float getSalary() {
@@ -50,7 +50,7 @@ public class Employee {
         return "Employee{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", adress='" + adress + '\'' +
+                ", address='" + address + '\'' +
                 ", salary=" + salary +
                 '}';
     }
